@@ -1,0 +1,15 @@
+.profile {
+  font-family: 'Lexend Zetta';
+  font-size: 15rem;
+  background-color: aqua;
+   }
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: right;
+}
+
+.content {
+  background-color: blanchedalmond;
+  }
