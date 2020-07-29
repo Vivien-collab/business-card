@@ -1,15 +1,39 @@
 .profile {
-  font-family: 'Lexend Zetta';
-  font-size: 15rem;
-  background-color: aqua;
+  background-color: black;
+  line-height: 140%;
+  color: white;
    }
-img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  float: right;
+
+body {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Lexend Zetta';
 }
 
-.content {
-  background-color: blanchedalmond;
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  float: right;
+  padding: 4px;
+  background-color: #666;
+  filter: blur(50%);
+  transition: all 0.5s ease-in-out;
+}
+img:hover {
+  filter: blur(20%);
+}
+
+.text {
+  font-size: 20rem;
+  text-align: left;
+  line-height: 100%;
   }
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
